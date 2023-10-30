@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  padding: 140px 135px 180px 135px;
+  background-color: #28293e;
+  min-height: 100vh;
+}
+.main-container .text-container h5 {
+  color: var(--Text_Light_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.main-container .text-container h2 {
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* .box-1 {
+  margin-top: 64px;
+  margin-right: 50px;
+} */
+/* .box-2 {
+  padding: 24px 37px 1px 37px;
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+  display: inline-block;
+}
+.box-2 img {
+  width: 196px;
+  height: 247px;
+} */
+/* .box-1{
+  width: 23%;
+} */
+.box-1 h4 {
+  margin-top: 26px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.box-1 p {
+  color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+/* .box-3 {
+  padding: 39px 5px 1px 6px;
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+  display: inline-block;
+} */
+.img-border:nth-child(3) img {
+  width: 259px;
+  height: 232px;  
+}
+/* .box-4 {
+  padding: 33px 28px 1px 37px;
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+  display: inline-block;
+} */
+.img-border:nth-child(1) img {
+  width: 196px;
+  height: 247px;
+}
+.img-border:nth-child(2) img {
+  width: 259px;
+  height: 232px;
+  
+}
+.img-border:nth-child(3) img {
+  width: 205px;
+  height: 238px;
+}
+.img-border:nth-child(4) img {
+  width: 230px;
+  height: 233px;
+}
+.img-border {
+  /* padding: 38px 28px 1px 12px; */
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+  /* display: inline-block; */
+}
+/* .box-5 img {
+  width: 233px;
+  height: 230px;
+} */
+.last-container img {
+  margin-top: 100px;  
+  margin-left: 550px;  
+  width: 76px;
+  height: 12px; 
+}
